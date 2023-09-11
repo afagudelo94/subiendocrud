@@ -85,7 +85,7 @@ function editar2(event){
     botonEnviarUI.style.display = "block"
 
 }
-
+/*
 function borrar(index){
     const array = localStorage.getItem('elements')
 
@@ -95,7 +95,7 @@ function borrar(index){
     localStorage.setItem('elements', JSON.stringify(actividadArray))
     imprimir(actividadArray)
 }
-/*
+
 function mantener(){
     const datos = JSON.parse(localStorage.getItem('elements'))
 
