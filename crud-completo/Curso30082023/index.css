@@ -1,0 +1,89 @@
+
+body {
+  background-image: url(./images/crudfondo.png);
+}
+.card{
+    width: 500px;
+    border: solid black;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: start;
+    color: brown;
+    margin: 12px;
+}
+
+.card:hover{
+    color:rgb(0, 0, 0) ;
+    border: solid gold;
+    background-color: rgba(122, 122, 122, 0.253);
+}
+
+label[for="actividad"] {
+    font-size: 18px; /* Cambiar el tamaño del texto */
+    color: rgb(7, 20, 202);     /* Cambiar el color del texto a azul */
+    font-weight: 600;
+    margin: 10px;
+  }
+
+  #enviar{
+    width: 80px;
+    margin-top: 20px;
+  }
+  #enviar{
+    width: 80px;
+    margin-top: 20px;
+  }
+
+  label[for="descripcion"] {
+    font-size: 18px; /* Cambiar el tamaño del texto */
+    color: blue;     /* Cambiar el color del texto a azul */
+    font-weight: 600;
+    margin: 10px;
+  }
+
+  .contain{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: orangered;
+  }
+
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+  #descripcion{
+    border-radius: 8px;
+    width: 200px;
+    height: 20px;
+  }
+
+  #actividad{
+    border-radius: 8px;
+    width: 200px;
+    height: 20px;
+  }
+
+  .header {
+    background-image: url(./images/crud.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 60vh;
+  }
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 72, 0);
+  margin: 100px;
+  padding: 100px;
+  height: 10px;
+}
